@@ -1,0 +1,360 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive hospital website design </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> medcare. </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="#doctors">doctors</a>
+        <a href="#book">book</a>
+        <a href="#review">review</a>
+        
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="{% static 'image/home-img.svg' %}" alt="">
+    </div>
+
+    <div class="content">
+        <h3>stay safe, stay healthy</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed autem vero? Magnam, est laboriosam!</p>
+        <a href="#" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-user-md"></i>
+        <h3>140+</h3>
+        <p>doctors at work</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <h3>1040+</h3>
+        <p>satisfied patients</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-procedures"></i>
+        <h3>500+</h3>
+        <p>bed facility</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-hospital"></i>
+        <h3>80+</h3>
+        <p>available hospitals</p>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-notes-medical"></i>
+            <h3>free checkups</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-ambulance"></i>
+            <h3>24/7 ambulance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user-md"></i>
+            <h3>expert doctors</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-pills"></i>
+            <h3>medicines</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-procedures"></i>
+            <h3>bed facility</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>total care</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="{% static 'image/about-img.svg' %}" alt="">
+        </div>
+
+        <div class="content">
+            <h3>we take care of your healthy life</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates voluptatibus a nihil temporibus deserunt vel?</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- doctors section starts  -->
+
+<section class="doctors" id="doctors">
+
+    <h1 class="heading"> our <span>doctors</span> </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="{% static 'image/d1.jpg' %}" alt="">
+            <h3>Dr.Gautami Porwane</h3>
+            <span>Orthopaedician</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'image/d2.jpg' %}" alt="">
+            <h3>Dr.Mandar Parulekar</h3>
+            <span>Cardiologist</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'image/d7.jpg' %}" alt="">
+            <h3>Dr.Sunil Sonawane</h3>
+            <span>Dermatologist</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'image/d5.jpg' %}" alt="">
+            <h3>Dr.Phunsuk Wangdu</h3>
+            <span>opthalmologist</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'image/d8.jpg' %}" alt="">
+            <h3>Dr.Khanolkar</h3>
+            <span>Pediatrician</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'image/d3.jpg' %}" alt="">
+            <h3>Dr.Pooja Gaur</h3>
+            <span>Dentist</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- doctors section ends -->
+
+<!-- booking section starts   -->
+
+<section class="book" id="book">
+
+    <h1 class="heading"> <span>book</span> now </h1>    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="{% static 'image/book-img.svg' %}" alt="">
+        </div>
+
+        <form method="post" action="/contactus">
+            {% csrf_token %}
+            <h3>book appointment</h3>
+            <input type="text" placeholder="your name" class="box" name="name">
+            <input type="text" placeholder="your number" class="box" name="phone">
+            <input type="email" placeholder="your email" class="box" name="email">
+            <input type="date" class="box" name="date">
+            <input type="submit" value="book now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- booking section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    
+    <h1 class="heading"> client's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="{% static 'image/r5.jpeg' %}" alt="">
+            <h3>Digvijay Jawake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">A good and an comfortable website.An unique way of booking appointment really helpful.</p>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'image/r2.jpeg' %}" alt="">
+            <h3>Pawan Bhoir</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p class="text">Nice website.Its a very smooth and comfortable website for patients to book appointment with ease I recommend this website to visit and use</p>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'image/r3.jpeg' %}" alt="">
+            <h3>Swaroop Patil</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">Really a good website for patients to book doctors appointment at ease and it is best for elders also.liked it and really worth it.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>
